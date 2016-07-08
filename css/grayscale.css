@@ -219,8 +219,34 @@ a:focus {
     transform: scale(1);
   }
 }
-.content-section {
+#audo {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/audo-logo_banner.jpg) no-repeat center center scroll;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#album {
+  width: 100%;
+  padding: 50px 0 10px 0;
+  color: white;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/*.content-section {
   padding-top: 100px;
+}*/
+
+.album-content {
+  padding: 20px;
+  vertical-align: middle;
 }
 .download-section {
   width: 100%;
