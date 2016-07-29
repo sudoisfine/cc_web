@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "NeuzeitGrotesk";
-  src:  url("font/DINNeuzeitGroteskStd-Light.otf") format("opentype");
+  src:  url("../font/DINNeuzeitGroteskStd-Light.otf") format("opentype");
 }
 
 body {
@@ -58,7 +58,7 @@ a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeuzeitGrotesk", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
@@ -71,6 +71,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom .navbar-brand {
+  letter-spacing: 5px;
   font-weight: 700;
 }
 .navbar-custom .navbar-brand:focus {
@@ -124,6 +125,7 @@ a:focus {
   width: 100%;
   height: auto;
   padding: 100px 0;
+  font-family: "NeuzeitGrotesk", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   color: white;
   background: url(../img/cc-bg.jpg) no-repeat bottom center scroll;
@@ -140,10 +142,10 @@ a:focus {
   padding: 100px 0;
 }
 .intro .intro-body .brand-heading {
-  font-size: 40px;
+  font-size: 30px;
 }
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 14px;
 }
 @media (min-width: 768px) {
   .intro {
@@ -154,7 +156,7 @@ a:focus {
     font-size: 100px;
   }
   .intro .intro-body .intro-text {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 .btn-circle {
