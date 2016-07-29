@@ -31,6 +31,7 @@ p {
   font-size: 14px;
   line-height: 1.5;
 }
+
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -39,7 +40,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #fff;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,7 +48,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #ccc;
 }
 .light {
   font-weight: 400;
@@ -256,6 +257,10 @@ a:focus {
   padding: 20px;
   vertical-align: middle;
 }
+
+.album-text {
+  font-size: 1em;
+}
 .hawn-section {
   width: 100%;
   padding: 50px 0;
@@ -267,21 +272,19 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-#map {
+#contact {
   width: 100%;
   height: 200px;
-  margin-top: 100px;
+ /* margin-top: 100px;*/
+  align-content: center;
 }
 @media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
+  #listen {
+    margin-top: 50px;
   }
-  .hawn-section {
-    padding: 100px 0;
-  }
-  #map {
+  #contact {
     height: 400px;
-    margin-top: 250px;
+    margin-top: 50px;
   }
 }
 .btn {
@@ -294,16 +297,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #fff;
+  color: #fff;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #fff;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #fff;
 }
 ul.banner-social-buttons {
   margin-top: 0;
