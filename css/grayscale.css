@@ -130,11 +130,17 @@ a:focus {
   color: white;
   background: url(../img/cc-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
+  margin: 0px auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
+.intro .img-responsive {
+  margin: 0 auto;
+}
+
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
