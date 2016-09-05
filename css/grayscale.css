@@ -199,7 +199,7 @@ a:focus {
 }
 #fucktown {
   width: 100%;
-  padding: 90px 0;
+  padding: 140px 0;
   color: white;
   background: url(../img/fucktown_collage.jpg) no-repeat center center scroll;
   background-color: white;
@@ -219,9 +219,9 @@ a:focus {
 }
 .hawn-section {
   width: 100%;
-  padding: 120px 0;
+  padding: 140px 0;
   color: white;
-  background: url(../img/hawn-2.jpg) no-repeat top center scroll;
+  background: url(../img/hawn-2.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
